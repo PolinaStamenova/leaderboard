@@ -6,8 +6,8 @@
 
 ## Built With
 
-- HTML
-- CSS
+- HTML.
+- CSS.
 
 ## Getting Started
 
