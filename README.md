@@ -4,8 +4,6 @@
 
 > A project to sort names in order to a score.
 
-![screenshot](./images/XXXXXXX)
-
 ## Built With
 
 - HTML
@@ -14,10 +12,6 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-## Live Demo
-
-[Live Link](XXXXXXXXXXXXXX)
 
 ## Instructions
 
