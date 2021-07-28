@@ -24,6 +24,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
+  padding: 0 5rem;
 }
 
 h1 {
@@ -75,8 +76,8 @@ form {
   gap: 1rem;
 }
 
-.submitt-button {
-  width: 30%;
+.submit-button {
+  width: 60px;
   padding: 0.2rem;
 }
 
