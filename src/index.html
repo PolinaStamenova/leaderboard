@@ -17,26 +17,34 @@
         <div class="div-score">
           <div class="div-score-top">
             <p class="subtitle">Recent scores</p>
-            <button type="button" class="refresh-button">Refresh</button>
+            <button type="button" class="refresh-button" id="refreshBtn">
+              Refresh
+            </button>
           </div>
-          <ul class="table">
-            <li class="table-row">Name: 100</li>
-            <li class="table-row">Name: 80</li>
-            <li class="table-row">Name: 70</li>
-            <li class="table-row">Name: 20</li>
-            <li class="table-row">Name: 10</li>
-            <li class="table-row">Name: 0</li>
-          </ul>
+          <ul class="table" id="ulList"></ul>
         </div>
         <div class="div-inputs">
           <p class="subtitle">Add your score</p>
-          <form action="/">
-            <input type="text" placeholder="Your name" />
-            <input type="text" placeholder="Your score" />
-            <input type="submit" class="submitt-button" />
+          <form action="#" id="myForm">
+            <input
+              type="text"
+              name="user-name"
+              id="userName"
+              placeholder="Your name"
+              required
+            />
+            <input
+              type="text"
+              name="user-score"
+              id="userScore"
+              placeholder="Your score"
+              required
+            />
+            <input type="submit" class="submit-button" id="submitBtn" />
           </form>
         </div>
       </div>
     </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
 </html>
