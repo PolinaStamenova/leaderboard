@@ -28,7 +28,8 @@ $ git clone git@github.com:PolinaStamenova/leaderboard.git
 
 ### Usage
 
-- Right click and open the index.html in your browser to view.
+- npm run start
+- Right click and open the dist/index.html in your browser to view.
 
 ## Authors
 
