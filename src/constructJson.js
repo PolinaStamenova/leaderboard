@@ -1,7 +1,4 @@
-const constructJson = () => {
-  const name = document.getElementById('userName').value;
-  let score = document.getElementById('userScore').value;
-
+const constructJson = (name, score) => {
   score = Number(score);
   const user = {
     user: name,
