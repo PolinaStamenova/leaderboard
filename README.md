@@ -2,12 +2,22 @@
 
 # Leaderboard
 
-> A project to sort names in order to a score.
+> A short project for sending and getting data, using Leaderboard API.
+
+> ![screenshot](./assets/leadereboard.screenshot.JPG)
+
+# Description
+
+> Users can submit their score, and the data will be send/store to the API, by the POST method.
+> By pressing the "Refresh" button, the stored data is retrieving, by the GET method and the fifth highest scores are displayed on the board.
+> The functionality of the project is build with JavaScript and styled with CSS3.
+> For sending and retrieving data to/from the API I am using the "axios" library.
 
 ## Built With
 
-- HTML.
-- CSS.
+- JavaScript
+- HTML
+- CSS
 
 ## Getting Started
 
@@ -28,6 +38,7 @@ $ git clone git@github.com:PolinaStamenova/leaderboard.git
 
 ### Usage
 
+- npm install axios
 - npm run start
 - Right click and open the dist/index.html in your browser to view.
 
