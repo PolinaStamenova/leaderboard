@@ -1,4 +1,4 @@
-function constructJson() {
+const constructJson = () => {
   const name = document.getElementById('userName').value;
   let score = document.getElementById('userScore').value;
 
@@ -8,6 +8,6 @@ function constructJson() {
     score,
   };
   return user;
-}
+};
 
 export default constructJson;

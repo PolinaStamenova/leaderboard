@@ -2,7 +2,7 @@ import axios from 'axios';
 import sortScore from './sortScore.js';
 import displayResult from './displayResult.js';
 
-async function getUser(url) {
+const getUser = async (url) => {
   try {
     const response = await axios.get(url);
     const users = sortScore(response.data.result);
@@ -13,6 +13,6 @@ async function getUser(url) {
   } catch (error) {
     return error;
   }
-}
+};
 
 export default getUser;

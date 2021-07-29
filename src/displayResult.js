@@ -1,4 +1,4 @@
-function displayResult(user) {
+const displayResult = (user) => {
   const ul = document.getElementById('ulList');
 
   const li = document.createElement('li');
@@ -9,6 +9,6 @@ function displayResult(user) {
 
   li.appendChild(nameText);
   ul.appendChild(li);
-}
+};
 
 export default displayResult;
